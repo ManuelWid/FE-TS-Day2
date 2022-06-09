@@ -13,6 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+// basic
 var Person = /** @class */ (function () {
     function Person(name, age, jobTitle) {
         this.name = name;
@@ -41,6 +42,7 @@ var p1 = new Person("Manuel", 29, "Dev");
 var e1 = new Employee("Serri", 32, "Dev", 5000, "CodeFactory");
 console.log(p1.printAll());
 console.log(e1.printMore());
+// advanced
 var Customer = /** @class */ (function () {
     function Customer(fName, lName, address) {
         this.fName = fName;

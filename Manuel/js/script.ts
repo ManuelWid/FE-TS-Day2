@@ -1,3 +1,4 @@
+// basic
 class Person{
     name: string;
     age: number;
@@ -33,6 +34,8 @@ const e1 = new Employee("Serri", 32, "Dev", 5000, "CodeFactory");
 console.log(p1.printAll());
 console.log(e1.printMore());
 
+
+// advanced
 class Customer{
     private fName: string;
     private lName: string;
